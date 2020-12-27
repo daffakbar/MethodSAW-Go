@@ -9,8 +9,8 @@ kriteria yang digunakan :
 2. C2 = Lokasi (seberapa jauh lokasi tempat bootcamp dari rumah)
 3. C3 = Fasilitas ( fasilitas tempat bootcamp)
 4. C4 = Kualitas pengajar (dilihat dari pengalaman para mentor di tempat bootcamp)
-
-dari kriteria tersebut akan digunakan variable. dimana setiap variabel akan diberi bobot dalam bentuk angka dengan range **1-5** 
+dari kriteria tersebut akan digunakan variable. dimana setiap variabel akan diberi bobot dalam bentuk angka dengan 
+range **1-5** 
 ---
 | No.  | Biaya  | Nilai |
 | :------------ |:---------------:| -----:|
