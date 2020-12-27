@@ -12,7 +12,7 @@ kriteria yang digunakan :
 
 **Bobot Kriteria**
 | Kriteria  | Bobot  |
-| :------------ |:---------------:| 
+| :------------ |---------------:| 
 | C1. | 0,4 | 
 | C2. | 0,3 | 
 | C3. | 0,2 | 
