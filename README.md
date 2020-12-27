@@ -10,7 +10,7 @@ kriteria yang digunakan :
 3. C3 = Fasilitas ( fasilitas tempat bootcamp)
 4. C4 = Kualitas pengajar (dilihat dari pengalaman para mentor di tempat bootcamp)
 
-**Bobot Kriteria**
+Bobot Kriteria
 | Kriteria  | Bobot  |
 | :------------ |---------------:| 
 | C1. | 0,4 | 
