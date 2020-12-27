@@ -18,6 +18,7 @@ Bobot Kriteria
 | C3. | 0,2 | 
 | C4. | 0,1 | 
 | TOTAL. | 1 | 
+
 adasdasd
 asdasd
 sda
