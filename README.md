@@ -18,9 +18,7 @@ kriteria yang digunakan :
 | C3. | 0,2 | 
 | C4. | 0,1 | 
 | TOTAL. | 1 | 
-
-dari kriteria tersebut akan digunakan variable. dimana setiap variabel akan diberi bobot dalam bentuk angka dengan 
-range 1 - 5 
+dari kriteria tersebut akan digunakan variable. dimana setiap variabel akan diberi bobot dalam bentuk angka dengan rangse 1 - 5 
 ---
 #### Biaya
 | No.  | Biaya  | Nilai |
