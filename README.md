@@ -19,11 +19,8 @@ Bobot Kriteria
 | C4. | 0,1 | 
 | TOTAL. | 1 | 
 
-adasdasd
-asdasd
-sda
-dari kriteria tersebut akan digunakan variable. dimana setiap variabel akan diberi bobot dalam bentuk angka dengasn range 1 - 5 
 ---
+dar kriteria tersebut akan digunakan variable. dimana setiap variabel akan diberi bobot dalam bentuk angka dengasn range 1 - 5 
 #### Biaya
 | No.  | Biaya  | Nilai |
 | :------------ |:---------------:| -----:|
@@ -60,6 +57,7 @@ pada studi kasus ini, ada 3 tempat bimbingan belajar yang akan menjadi alternati
 1. Arkademy (A1)
 2. Hactiv8 (A2)
 3. Dumbways (A3)
+
 setiap alternatif diberikan variable untuk masing - masing kriteria sesuai keadaan dari alternatif: 
 | Alternatif  | C1  | C2 | C3 | C4
 | :------------ |:---------------:|:---------------:|:---------------:| -----:|
