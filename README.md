@@ -18,7 +18,9 @@ Bobot Kriteria
 | C3. | 0,2 | 
 | C4. | 0,1 | 
 | TOTAL. | 1 | 
-
+adasdasd
+asdasd
+sda
 dari kriteria tersebut akan digunakan variable. dimana setiap variabel akan diberi bobot dalam bentuk angka dengasn range 1 - 5 
 ---
 #### Biaya
