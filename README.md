@@ -20,7 +20,7 @@ Bobot Kriteria
 | TOTAL. | 1 | 
 
 ---
-dar kriteria tersebut akan digunakan variable. dimana setiap variabel akan diberi bobot dalam bentuk angka dengasn range 1 - 5 
+dari kriteria tersebut akan digunakan variable. dimana setiap variabel akan diberi bobot dalam bentuk angka dengasn range 1 - 5 
 #### Biaya
 | No.  | Biaya  | Nilai |
 | :------------ |:---------------:| -----:|
