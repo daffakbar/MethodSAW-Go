@@ -20,7 +20,7 @@ kriteria yang digunakan :
 | TOTAL. | 1 | 
 
 dari kriteria tersebut akan digunakan variable. dimana setiap variabel akan diberi bobot dalam bentuk angka dengan 
-range **1-5** 
+range 1 - 5 
 ---
 #### Biaya
 | No.  | Biaya  | Nilai |
@@ -60,7 +60,7 @@ pada studi kasus ini, ada 3 tempat bimbingan belajar yang akan menjadi alternati
 3. Dumbways (A3)
 setiap alternatif diberikan variable untuk masing - masing kriteria sesuai keadaan dari alternatif: 
 | Alternatif  | C1  | C2 | C3 | C4
-| :------------ |:---------------:| -----:|
+| :------------ |:---------------:|:---------------:|:---------------:| -----:|
 | A1. | 3 | 2 | 3 | 4 |
 | A2. | 2 | 4 | 3 | 3 |
 | A3. | 4 | 5 | 5 | 5 |
