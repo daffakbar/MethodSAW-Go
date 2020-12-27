@@ -46,6 +46,7 @@ var getMax = func(n []int) int {
 }
 
 func main() {
+
 	// Menentukan rekomendasi tempat bootcamp IT
 	// C1 = Biaya (seberapa banyak biaya untuk bootcamp)
 	// C2 = Lokasi (seberapa jauh lokasi tempat bootcamp dari rumah)
@@ -53,23 +54,23 @@ func main() {
 	// C4 = Kualitas pengajar (dilihat dari gelar akademik para mentor di tempat bootcamp)
 
 	kriteria := [4][1]string{{"C1"}, {"C2"}, {"C3"}, {"C4"}}
-	// Pembobotan
+	// Pembobotan nilai alternatif
 	alternatif := [3][4]int{
 		{3, 2, 3, 4}, //Alternatif 1 (Bootcamp Arkademy)
 		{2, 4, 3, 3}, //Alternatif 2 (Bootcamp Hactiv8)
 		{4, 5, 5, 5}} //Alternatif 3 (Bootcamp Dumbways)
 
 	fmt.Println(kriteria)
-	fmt.Println(alternatif)
-	fmt.Println(alternatif[2])
-	das := arrayColumn(alternatif, 0)
-	// fmt.Println(ArrayColumn(alternatif {2})
-	fmt.Println(das)
+	// fmt.Println(alternatif)
+	// fmt.Println(alternatif[2])
+	// das := arrayColumn(alternatif, 0)
+	// // fmt.Println(ArrayColumn(alternatif {2})
+	// fmt.Println(das)
 
-	var min = getMin(das)
-	println(min)
-	var max = getMax(das)
-	println(max)
+	// var min = getMin(das)
+	// println(min)
+	// var max = getMax(das)
+	// println(max)
 	rr := [3][4]float32{}
 
 	indexAlternatif := 0
@@ -77,11 +78,11 @@ func main() {
 	for _, element1 := range alternatif {
 		indexKriteria := 0
 		fmt.Println(element1)
-
 		for _, element2 := range kriteria {
+			// C1 dan C2 dicari nilai terkecil karena COST
 			if string(element2[0]) == "C1" || element2[0] == "C2" {
-
 				rr[indexAlternatif][indexKriteria] = float32(getMin(arrayColumn(alternatif, indexKriteria))) / float32(alternatif[indexAlternatif][indexKriteria])
+				// C3 dan C4 dicari nilai terbesar karena BENEFIT
 			} else if element2[0] == "C3" || element2[0] == "C4" {
 				rr[indexAlternatif][indexKriteria] = float32(alternatif[indexAlternatif][indexKriteria]) / float32(getMax(arrayColumn(alternatif, indexKriteria)))
 			}
@@ -90,23 +91,24 @@ func main() {
 		}
 		indexAlternatif++
 	}
-	fmt.Println("=================")
+	fmt.Println("===Hasil normalisasi===")
 
 	fmt.Println(rr)
 
+	// Bobot kriteria C1, C2, C3, C4
 	w := [4]float32{0.4, 0.3, 0.2, 0.1}
 	fmt.Println(w)
 	nv := [3]float32{}
 	indexAlternatif1 := 0
 	const indexV = 0
 	fmt.Println("=================")
+
+	// Bobot kriteria dikalikan hasil normalisasi
 	for _, element := range alternatif {
 		indexw := 0
 		indexr := 0
 		v := float32(0)
-		// nv := float32(0)
 		fmt.Println(element)
-
 		for _, element2 := range kriteria {
 			v += float32(w[indexw] * rr[indexAlternatif1][indexr])
 			indexr++
@@ -120,6 +122,8 @@ func main() {
 		indexAlternatif1++
 		// fmt.Println(nv)
 	}
-	println("==wwwww==")
+	println("==Hasil perhitungan==")
 	fmt.Println(nv)
+	println("======================")
+
 }
