@@ -108,16 +108,17 @@ func main() {
 		indexw := 0
 		indexr := 0
 		v := float32(0)
-		// GAK PENGEN NYETAK IKI
+
 		fmt.Println(element)
-		// IKI
+		fmt.Println("==========")
+
 		for _, element2 := range kriteria {
 			v += float32(w[indexw] * rr[indexAlternatif1][indexr])
 			indexr++
 			indexw++
-			// GAK PENGEN NYETAK IKI
+
 			fmt.Println(element2)
-			// GAK PENGEN NYETAK IKI
+			// fmt.Println("===========")
 
 		}
 		// println("=======df============")
