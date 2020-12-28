@@ -61,18 +61,8 @@ func main() {
 		{4, 5, 5, 5}} //Alternatif 3 (Bootcamp Dumbways)
 
 	fmt.Println(kriteria)
-	// fmt.Println(alternatif)
-	// fmt.Println(alternatif[2])
-	// das := arrayColumn(alternatif, 0)
-	// // fmt.Println(ArrayColumn(alternatif {2})
-	// fmt.Println(das)
 
-	// var min = getMin(das)
-	// println(min)
-	// var max = getMax(das)
-	// println(max)
 	rr := [3][4]float32{}
-
 	indexAlternatif := 0
 
 	for _, element1 := range alternatif {
@@ -132,3 +122,14 @@ func main() {
 	println("======================")
 
 }
+
+// fmt.Println(alternatif)
+// fmt.Println(alternatif[2])
+// das := arrayColumn(alternatif, 0)
+// // fmt.Println(ArrayColumn(alternatif {2})
+// fmt.Println(das)
+
+// var min = getMin(das)
+// println(min)
+// var max = getMax(das)
+// println(max)
